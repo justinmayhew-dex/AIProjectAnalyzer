@@ -1,0 +1,14 @@
+[project]
+name = "project-analyzer"
+version = "0.1.0"
+description = "Deterministic project tree analysis tool"
+requires-python = ">=3.9"
+dependencies = [
+    "networkx",
+    "graphviz",
+    "pydantic",
+    "ollama",
+]
+
+[project.scripts]
+project-analyzer = "cli:main"
